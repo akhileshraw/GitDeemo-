@@ -5,4 +5,4 @@ set maven.conf default ${maven.home}/conf
 [plexus.core]
 load       ${maven.conf}/logging
 optionally ${maven.home}/lib/ext/*.jar
-load       ${maven.home}/lib/*.jar
+load       ${maven.home}/lib/*.jars
